@@ -1,0 +1,4 @@
+rootProject.name = 'commons'
+include("commons-client")
+include("commons-security")
+include ("commons-core")
