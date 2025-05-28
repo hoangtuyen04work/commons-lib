@@ -28,8 +28,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 //	implementation 'org.springframework.boot:spring-boot-starter-actuator'
     implementation 'com.nimbusds:nimbus-jose-jwt:9.37'
-    compileOnly 'org.projectlombok:lombok:1.18.34'
-    annotationProcessor 'org.projectlombok:lombok:1.18.34'
+
 
 //	testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
@@ -38,13 +37,17 @@ dependencies {
 tasks.named('test') {
     useJUnitPlatform()
 }
+dependencies {
+    implementation 'io.jsonwebtoken:jjwt:0.9.1' // Example dependency for JWT
+}
+
 
 publishing {
     publications {
         mavenJava(MavenPublication) {
             groupId = 'com.commons'
             artifactId = 'commons-core'
-            version = '0.0.1-SNAPSHOT'
+            version = '0.1.0-SNAPSHOT'
             from components.java
 
             pom {

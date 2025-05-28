@@ -5,20 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6892ec21-e2a7-4025-99b0-89792ed1a38c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/commons-security/src/main/java/com/commons/commons_security/config/CustomJwtAuthenticationConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons-security/src/main/java/com/commons/commons_security/config/CustomJwtDecoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons-security/src/main/java/com/commons/commons_security/config/JwtAuthenticationEntryPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons-client" beforeDir="false" afterPath="$PROJECT_DIR$/commons-client" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/commons-client/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/commons-client/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/commons-client/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/commons-client/settings.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/commons-client/src/main/java/com/example/feign_client_demo/FeignClientDemoApplication.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/commons-client/src/main/java/com/example/feign_client_demo/config/AuthenticationRequestInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons-client/src/main/java/com/commons/commons_client/config/AuthenticationRequestInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons-client/src/main/java/com/example/feign_client_demo/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons-client/src/main/java/com/commons/commons_client/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons-client/src/main/java/com/example/feign_client_demo/controller/HomeController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/commons-client/src/main/java/com/example/feign_client_demo/dto/ApiResponse.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/commons-client/src/main/java/com/example/feign_client_demo/dto/OB.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/commons-client/src/main/java/com/example/feign_client_demo/dto/UserResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons-client/src/main/java/com/example/feign_client_demo/service/HomeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons-client/src/main/java/com/commons/commons_client/service/HomeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons-client/src/main/java/com/example/feign_client_demo/utils/AppClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons-client/src/main/java/com/commons/commons_client/utils/AppClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons-client/src/main/java/com/example/feign_client_demo/service/HomeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons-client/src/main/java/com/example/feign_client_demo/utils/AppClient.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/commons-client/src/test/java/com/example/feign_client_demo/FeignClientDemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons-client/src/test/java/com/commons/commons_client/CommonsClientApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons-core/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/commons-core/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons-core/src/main/java/com/commons/commonscore/exception/AppException.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons-core/src/main/java/com/commons/commonscore/exception/AppException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons-core/src/main/java/com/commons/commonscore/exception/ErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons-core/src/main/java/com/commons/commonscore/exception/ErrorCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons-security" beforeDir="false" afterPath="$PROJECT_DIR$/commons-security" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/commons-security/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/commons-security/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/commons-security/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/commons-security/settings.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/commons-security/src/main/java/com/commons_security/TokenUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons-security/src/main/java/com/commons/commons_security/TokenUtils.java" afterDir="false" />
@@ -42,7 +47,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/commons-client" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -54,20 +59,21 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/AEH/LEARN/commons/commons-core/src/main/java/com/commons/commonscore/config&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Download Sources.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/AEH/LEARN/commons/commons-core/src/main/java/com/commons/commonscore/config",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\AEH\LEARN\commons\commons-core\src\main\java\com\commons\commonscore\config" />
@@ -104,7 +110,11 @@
       <workItem from="1748275602564" duration="378000" />
       <workItem from="1748276191835" duration="1599000" />
       <workItem from="1748277912505" duration="876000" />
-      <workItem from="1748304995660" duration="1458000" />
+      <workItem from="1748304995660" duration="1862000" />
+      <workItem from="1748308792079" duration="2686000" />
+      <workItem from="1748325884030" duration="8320000" />
+      <workItem from="1748359903943" duration="3929000" />
+      <workItem from="1748412156041" duration="2894000" />
     </task>
     <servers />
   </component>

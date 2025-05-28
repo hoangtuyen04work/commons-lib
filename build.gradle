@@ -12,3 +12,15 @@ repositories {
 test {
     useJUnitPlatform()
 }
+allprojects {
+
+    apply plugin: 'java'
+    //so that we can use 'compile', 'testCompile' for dependencies
+
+    dependencies {
+        compileOnly 'org.projectlombok:lombok:1.18.34'
+        annotationProcessor 'org.projectlombok:lombok:1.18.34'
+        implementation 'org.springframework:spring-context'
+        implementation 'org.springframework:spring-core'
+    }
+}

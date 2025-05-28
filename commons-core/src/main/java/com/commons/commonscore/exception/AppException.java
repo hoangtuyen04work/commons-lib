@@ -1,16 +1,18 @@
 package com.commons.commonscore.exception;
 
 import lombok.Getter;
-import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 
 @Getter
 @Setter
-@RequiredArgsConstructor
 public class AppException extends Exception {
-    private ErrorCode errorCode;
-    public AppException(ErrorCode error){
+    private final ErrorCode errorCode;
+    public AppException() {
         super();
-        this.errorCode = error;
+        this.errorCode = null; // Hoặc ErrorCode.GENERIC_ERROR
+    }
+    public AppException(ErrorCode errorCode) {
+        super(errorCode.getMessage());
+        this.errorCode = errorCode;
     }
 }

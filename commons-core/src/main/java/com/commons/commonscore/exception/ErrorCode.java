@@ -14,8 +14,7 @@ public enum ErrorCode{
     WRONG_PASSWORD_OR_USERID(400, "Wrong password or userid", HttpStatus.BAD_REQUEST),
     NOT_AUTHENTICATION(401, "Not authentication", HttpStatus.UNAUTHORIZED),
     NOT_AUTHORIZATION(403, "Not authorization", HttpStatus.FORBIDDEN),
-    CONFLICT(409, "Lack of informatio", HttpStatus.CONFLICT);
-    @Getter
+    CONFLICT(409, "Lack of information", HttpStatus.CONFLICT);
     int status;
     String message;
     HttpStatus httpStatus;
